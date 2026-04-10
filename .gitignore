@@ -7,10 +7,22 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build output
 dist
 dist-ssr
 *.local
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Configuration with sensitive data
+src/config.local.ts
 
 # Editor directories and files
 .vscode/*
@@ -23,33 +35,31 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment variables
-.env
-.env.local
-.env.production
-.env.development
-
-# Configuration with sensitive data
-src/config.local.ts
-
-# Build output
-dist/
-dist-ssr/
-docs
 # OS files
-.DS_Store
 Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Temporary files
 *.tmp
 *.temp
+
+# Exclude extra documentation files (keep only essential docs mentioned in README)
+docs/COMPLETE_PROJECT_SUMMARY.md
+docs/MIGRATION_NOTES.md
+docs/REDESIGN_SUMMARY.md
+docs/DOCUMENTATION_INDEX.md
+docs/PROJECT_STRUCTURE.md
+docs/SETUP_2.md
+docs/FINAL_STRUCTURE_SUMMARY.md
+docs/GIT_PUSH_INSTRUCTIONS.md
+docs/STRUCTURE_COMPARISON.md
+docs/DEPLOYMENT.md
+docs/SECURITY.md
+docs/START_HERE.md
+docs/index.html
+
+# Root documentation files to exclude
+SETUP.md
+FINAL_STRUCTURE_SUMMARY.md
+STRUCTURE_COMPARISON.md
+PROJECT_STRUCTURE.md
+GIT_PUSH_INSTRUCTIONS.md
