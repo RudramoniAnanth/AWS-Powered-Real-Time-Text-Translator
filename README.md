@@ -48,6 +48,7 @@ aws-text-translator-pro/
 
 ## 📚 Documentation
 
+- **[START_HERE.md](START_HERE.md)** - Begin here!
 - **[docs/QUICKSTART.md](docs/QUICKSTART.md)** - 5-minute setup
 - **[docs/SETUP.md](docs/SETUP.md)** - Detailed setup guide
 - **[docs/deployment-guide.md](docs/deployment-guide.md)** - AWS deployment
