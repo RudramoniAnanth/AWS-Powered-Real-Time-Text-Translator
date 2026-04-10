@@ -153,28 +153,5 @@ npm run lint
 }
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read our contributing guidelines.
-
-## 📄 License
-
-This project is open source and available for educational purposes.
-
-## 🙏 Acknowledgments
-
-- Built with React and TypeScript
-- Powered by AWS Lambda and Amazon Translate
-- Icons by Lucide React
-- Styled with Tailwind CSS
-
-## 📞 Support
-
-For issues or questions:
-- Check [documentation](docs/)
-- Review [troubleshooting guide](docs/SETUP.md#troubleshooting)
-- Open an issue on GitHub
-
----
 
 **Made with ❤️ using AWS Serverless Technologies**
